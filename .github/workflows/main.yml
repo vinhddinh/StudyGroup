@@ -26,7 +26,7 @@ jobs:
           # Owner of the forked repository
           owner: misar-naeem
           # Token for the github API
-          # github_token:
+          github_token: ${{ secrets.FORK_API_SECRET }}
           # Branch to track
           head: main
           # Branch to keep updated
